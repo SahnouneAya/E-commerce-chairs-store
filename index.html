@@ -15,7 +15,7 @@
             <div class="header-content">
                 <img src="images/logo.png" alt="logo">
                <div class="nav">
-                <ul class="list-unstyled">
+                <ul class="list-unstyled" id="nav">
                     <li class="drop-down">
                         <a href="#"  class="last">Furntiure</a>
                         <div class="drop-down-menu">
@@ -112,9 +112,14 @@
                             </ul>
                         </div>
                     </li>
+                    <div class="close" ><i class="fa fa-times" id="close" aria-hidden="true"></i></div>
 
                 </ul>
-               </div>
+
+                <div class="mobile" >
+                    <i class="fa fa-bars mobile" id="bar" ></i>   
+                </div>
+                </div>
                <div class="login">
                    <ul class="list-unstyled">
                        <li><i class="fa fa-search fa-lg"></i></li>
@@ -185,16 +190,18 @@
                         <span></span>
                     </div>
                </div>
-                <div class="item">
-                    <div class="item-info">
-                        <h3>30% Discount</h3>
-                        <h2>Designing Interior</h2>
+                <div class="items">
+                    <div class="item">
+                        <div class="item-info">
+                            <h3>30% Discount</h3>
+                            <h2>Designing Interior</h2>
+                        </div>
                     </div>
-                </div>
-                <div class="item">
-                    <div class="item-info">
-                        <h3>30% Discount</h3>
-                        <h2>Designing Interior</h2>
+                    <div class="item">
+                        <div class="item-info">
+                            <h3>30% Discount</h3>
+                            <h2>Designing Interior</h2>
+                        </div>
                     </div>
                 </div>
            </div>
@@ -337,8 +344,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="product-items">
+
                 <div class="product-item">
                     <div class="product-image">
                         <img src="images/chair1.jpg" alt="">
@@ -447,11 +453,11 @@
             <footer>
               <div class="container">
                <div class="footer-content">
-                <div class="first">
+                <div class="row">
                     <img src="images/footer-logo.png" alt="">
                     <p> elit. Optio molestiae animi officia beatae facere, doloremque necessitatibus consectetur quia praesentium accusamus quaerat labore nesciunt itaque harum libero ullam explicabo exercitationem, possimus dolores. Eius earum quas ratione exercitationem sit. Deleniti, eius aliquam!</p>
                 </div>
-                <div class="second">
+                <div class="row">
                     <ul class="list-unstyled">
                         <li><h3>information</h3></li>
                         <li>about us</li>
@@ -461,7 +467,7 @@
                         <li>site map</li>
                     </ul>
                 </div>
-                <div class="third">
+                <div class="row">
                     <ul class="list-unstyled">
                         <li><h3>my account</h3></li>
                         <li>my account</li>
@@ -471,7 +477,7 @@
                         <li>returns</li>
                     </ul>
                 </div>
-                <div class="fourth">
+                <div class="row">
                     <ul class="list-unstyled">
                         <li><h3>subscribe now</h3></li>
                         <li>
@@ -499,5 +505,8 @@
             </footer>
 </section>
 
+
+
+<script src="script.js"></script>
 </body>
 </html>
